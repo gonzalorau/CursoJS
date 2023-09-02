@@ -33,3 +33,7 @@ const CONTACTOS = {
         email: "agostinaa_@outlook.com"
     },
 }
+
+// hasta acá hay 6 contactos
+console.log(CONTACTOS)
+
