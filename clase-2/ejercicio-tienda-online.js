@@ -7,3 +7,11 @@ const PRODUCTO = {
     disponible: true
 }
 
+// desestructuracion de un objeto
+mostrarProducto = ({nombre, precio, disponible}) => {
+    console.log(`Nombre: ${nombre}`)
+    console.log(`Precio: ${precio}`)
+    console.log(`Disponible: ${disponible}`)
+}
+
+mostrarProducto(PRODUCTO)
