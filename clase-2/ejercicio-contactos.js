@@ -35,7 +35,7 @@ const CONTACTOS = {
 }
 
 // hasta acá hay 6 contactos
-console.log(CONTACTOS)
+console.log(`Contactos: ${Object.keys(CONTACTOS).length}`)
 
 // agrego otro contacto
 CONTACTOS.contacto7 = {
@@ -45,7 +45,7 @@ CONTACTOS.contacto7 = {
 }
 
 // muestra que hay 7 contactos
-console.log(CONTACTOS)
+console.log(`Contactos: ${Object.keys(CONTACTOS).length}`)
 
 // muestra todos los contactos
 for(let user in CONTACTOS) {
