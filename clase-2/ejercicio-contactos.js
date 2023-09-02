@@ -37,3 +37,12 @@ const CONTACTOS = {
 // hasta acá hay 6 contactos
 console.log(CONTACTOS)
 
+// agrego otro contacto
+CONTACTOS.contacto7 = {
+    nombre: "Martin",
+    edad: 24,
+    email: "tincho@outlook.com"
+}
+
+// muestra que hay 7 contactos
+console.log(CONTACTOS)
