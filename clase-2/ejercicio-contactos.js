@@ -46,3 +46,9 @@ CONTACTOS.contacto7 = {
 
 // muestra que hay 7 contactos
 console.log(CONTACTOS)
+
+// muestra todos los contactos
+for(let user in CONTACTOS) {
+    console.log(`${user}`)
+    }
+    
