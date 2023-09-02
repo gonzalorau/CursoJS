@@ -27,3 +27,4 @@ peliculasFavoritas: [
 ]
 }
 
+console.log(`La peli favorita de ${USUARIO.nombre} es ${USUARIO.peliculasFavoritas[1].titulo} que se estreno en el año ${USUARIO.peliculasFavoritas[1].anio}`)
